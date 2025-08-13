@@ -18,10 +18,10 @@ body {
     place-items: center;
     margin-bottom: 10px;
     opacity: 0;
-    transform: translateY(50px) translateX(-50%) scale(0.95);
+    transform: translateY(20px) translateX(-50%) scale(0.8);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition: 
-        opacity, 0.8s cubic-bezier(0.40, 1.3, 0.80, 1),  /*overshoot ve undershoot efektleri*/
+        opacity, transform 0.8s cubic-bezier(0.4, 1.2, 0.8, 1),  /*overshoot ve undershoot efektleri*/
         box-shadow 0.4s ease,
         filter 0.4s ease;
 }
